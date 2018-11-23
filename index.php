@@ -59,7 +59,7 @@
 					Our website is <span class="m1-txt2">Coming Soon</span>, follow us for update now!
 				</p>
 
-				<form class="contact100-form validate-form" method="post" target="submit.php">
+				<form class="contact100-form validate-form" method="post" action="submit.php">
 					<div class="wrap-input100 m-b-10 validate-input" data-validate = "Name is required">
 						<input class="s2-txt1 placeholder0 input100" type="text" name="name" placeholder="Your Name">
 						<span class="focus-input100"></span>
@@ -71,9 +71,9 @@
 					</div>
 
 					<div class="w-full">
-						<button class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04" >
-							Subscribe
-						</button>
+						<input class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04"  type="submit" name="submit" value="Subscribe"/>
+
+					
 					</div>
 				</form>
 
@@ -83,7 +83,7 @@
 			</div>
 
 			<div class="flex-w">
-				<a href="https://www.facebook.com/Watch-Out-The-Box-1027690020765455/" target="_blank" class="flex-c-m size5 bg3 how1 trans-04 m-r-5">
+				<a href="#" target="_blank" class="flex-c-m size5 bg3 how1 trans-04 m-r-5">
 					<i class="fa fa-facebook"></i>
 				</a>
 
@@ -93,7 +93,7 @@
 					<i class="fa fa-twitter"></i>
 				</a>
 
-				<a href="https://www.youtube.com/channel/UCR2cT9z1oc4rJZfDDZq2Z8w" target="_blank" class="flex-c-m size5 bg5 how1 trans-04 m-r-5">
+				<a style="display:none;" href="https://www.youtube.com/channel/UCR2cT9z1oc4rJZfDDZq2Z8w" target="_blank" class="flex-c-m size5 bg5 how1 trans-04 m-r-5">
 					<i class="fa fa-youtube-play"></i>
 				</a>
 			</div>
